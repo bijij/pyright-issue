@@ -28,5 +28,5 @@ BT = TypeVar('BT', bound=B)
 
 
 if TYPE_CHECKING:
-    Error = CoroMaybeMethod['A', ['BT', 'C'], Any]
-    reveal_type(Error)
+    Something = CoroMaybeMethod['A', ['BT', 'C'], Any]
+    reveal_type(Something)

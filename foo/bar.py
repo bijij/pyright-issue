@@ -9,7 +9,7 @@ from typing import (
 if TYPE_CHECKING:
     from typing_extensions import ParamSpec
 
-    from ..fred import CoroMaybeMethod
+    from .fred import CoroMaybeMethod
 
 __all__ = (
     'D', 'E', 'F'
